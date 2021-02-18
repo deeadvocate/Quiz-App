@@ -88,3 +88,26 @@ incrementScore = num => {
 };
 
 
+
+
+
+// Personalize Theme
+
+const box1 = document.querySelector(".box1");
+const box2 = document.querySelector(".box2");
+const box3 = document.querySelector(".box3");
+const box4 = document.querySelector(".box4");
+
+
+function boxes() {
+  
+    let num = 3;
+    for (let index = 0; index < num; index++) {
+      document.documentElement.style.setProperty("--primary-color", "yellow");
+
+    }
+   
+    
+
+       
+}
