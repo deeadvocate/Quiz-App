@@ -113,7 +113,7 @@ h3 {
   }
   
   .box1 {
-    background-color: var(--primary-color);
+    background-color: #56a5eb;
   }
 
   .box2{
@@ -194,6 +194,10 @@ h3 {
  .incorrect{
    background-color: #dc3545;
  }
+
+ .question {
+   color: var(--dark-color);
+ }
   
   /* HUD */
 
@@ -205,6 +209,7 @@ h3 {
   .hud-prefix{
     /* text-align: center; */
     font-size: 1.5rem;
+    color: var(--dark-color);
   }
 
   #hud-main-text{

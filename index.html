@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educational Quiz</title>
     <link rel="stylesheet" href="app.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 <body>
     <div class="container">
@@ -15,10 +16,10 @@
         <div class="personalize">
             <p>Personalize the theme</p>
             <div class="box flex-center flex-row">
-                <div class="box1 bx" onclick="boxes()"></div>
-                <div class="box2 bx"></div>
-                <div class="box3 bx"></div>
-                <div class="box4 bx"></div>
+                <div data-mode="light" class="box1 bx theme-dot" onclick="boxes()"></div>
+                <div data-mode="blue" class="box2 bx theme-dot"></div>
+                <div data-mode="green" class="box3 bx theme-dot"></div>
+                <div data-mode="purple" class="box4 bx theme-dot"></div>
             </div>
         </div>
     </div>      

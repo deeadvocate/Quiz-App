@@ -87,7 +87,7 @@ incrementScore = num => {
   scoreText.innerText = score;
 };
 
-
+ 
 
 
 
@@ -99,15 +99,55 @@ const box3 = document.querySelector(".box3");
 const box4 = document.querySelector(".box4");
 
 
-function boxes() {
+// function boxes() {
   
-    let num = 3;
-    for (let index = 0; index < num; index++) {
-      document.documentElement.style.setProperty("--primary-color", "yellow");
+//     let num = 3;
+//     for (let index = 0; index < num; index++) {
+//       document.documentElement.style.setProperty("--primary-color", "yellow");
 
-    }
+//     }
    
     
 
        
+// }
+
+
+let theme = localStorage.getItem('theme')
+
+if(theme == null){
+	setTheme('light')
+}else{
+	setTheme(theme)
+}
+
+let themeDots = document.getElementsByClassName('theme-dot')
+
+
+for (var i=0; themeDots.length > i; i++){
+	themeDots[i].addEventListener('click', function(){
+		let mode = this.dataset.mode
+		console.log('Option clicked:', mode)
+		setTheme(mode)
+	})
+}
+
+function setTheme(mode){
+	if(mode == 'light'){
+		document.getElementById('theme-style').href = 'app.css'
+	}
+
+	if(mode == 'blue'){
+		document.getElementById('theme-style').href = 'color2.css'
+	}
+
+	if(mode == 'green'){
+		document.getElementById('theme-style').href = 'color3.css'
+	}
+
+	if(mode == 'purple'){
+		document.getElementById('theme-style').href = 'color4.css'
+	}
+
+	localStorage.setItem('theme', mode)
 }
