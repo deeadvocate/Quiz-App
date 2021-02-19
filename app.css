@@ -58,6 +58,7 @@ h3 {
 .flex-column {
     display: flex;
     flex-direction: column;
+    padding-top: 10vh;
 }
 
 .flex-row{
@@ -275,13 +276,46 @@ input::placeholder{
 }
 
 
+/* Footer */
+
+.developer{
+  margin-top: 20vh; 
+  transition: all .3s linear;   
+}
+.developer:hover{
+  transform: scale(1.4);
+}
+
+.dev-link{
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-style: oblique;
+
+}
+
+
 
 /* MEDIA QUERIES */
+
+@media screen and (max-width:260px){
+  :root{
+    font-size: 40%;
+  }
+
+  .flex-column{
+    padding-top: 5vh;
+  }
+
+}
 
 @media screen and (max-width:360px){
   :root{
     font-size: 50%;
-    
+  }
+
+  .flex-column{
+    padding-top: 5vh;
   }
 
 }

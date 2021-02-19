@@ -1,26 +1,86 @@
 [
   {
-    "question": "Inside which HTML element do we put the JavaScript?",
-    "choice1": "<script>",
-    "choice2": "<javascript>",
-    "choice3": "<js>",
-    "choice4": "<scripting>",
-    "answer": 1
-  },
-  {
-    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    "choice1": "<script href='xxx.js'>",
-    "choice2": "<script name='xxx.js'>",
-    "choice3": "<script src='xxx.js'>",
-    "choice4": "<script file='xxx.js'>",
+    "question": "Who is the first executive president of Nigeria?",
+    "choice1": "Chief Obafemi Awolowo",
+    "choice2": "Dr. Nnamdi Azikwe",
+    "choice3": "Sheu Shagari",
+    "choice4": "Abubakar Tafawa Balewa",
     "answer": 3
   },
-  {
-    "question": " How do you write 'Hello World' in an alert box?",
-    "choice1": "msgBox('Hello World');",
-    "choice2": "alertBox('Hello World');",
-    "choice3": "msg('Hello World');",
-    "choice4": "alert('Hello World');",
+
+{"question": "Who was the first Millitary Head of State in  Nigeria?",
+    "choice1": "General Yakubu Gowon",
+    "choice2": "General Aguiyi Ironsi",
+    "choice3": "Major General Muritala Muhammed",
+    "choice4": "General Olusegun Obasanjo",
+    "answer": 2
+  },
+
+{"question": "A system in which no single person serves as the chief executive is known as?",
+    "choice1": "Republican",
+    "choice2": "Revolutionary",
+    "choice3": "Collegial",
+    "choice4": "Parliamentary",
     "answer": 4
-  }
+  },
+
+{"question": "A system in which power is derived from control over land is called?",
+    "choice1": "Oligarchy",
+    "choice2": "Feudalism",
+    "choice3": "Socialism",
+    "choice4": "Welfarism",
+    "answer": 2
+},
+  
+{"question": "Who is the Richest Man in Africa?",
+  "choice1": "Mike Otedola",
+  "choice2": "Oprah Winfrey",
+  "choice3": "Adebanjo Israel",
+  "choice4": "Aliko Dangote",
+  "answer": 4
+},
+
+{"question": "Who is the first Millitary President of Nigeria?",
+  "choice1": "General Ibrahim Babaginda",
+  "choice2": "General Tunde Idiagbon",
+  "choice3": "Major General Phillip Effiong",
+  "choice4": "General Adbulsalam Abubakar",
+  "answer": 1
+},
+
+{"question": "Who is the current NAFDAC Director-General?",
+  "choice1": "Mrs. Okonjo Iwela",
+  "choice2": "Mojisola Christianah Adeyeye",
+  "choice3": "Mahmood Yakubu",
+  "choice4": "AIsha Adamu",
+  "answer": 2
+},
+
+{"question": "Who is the Secretary General of the United Nations?",
+  "choice1": "Antonio Gutteres",
+  "choice2": "Kim Park",
+  "choice3": "Richard Edward",
+  "choice4": "Peter Oni",
+  "answer": 1
+},
+
+
+{"question": "Which state is the major producer of Coal in Nigeria?",
+  "choice1": "Osun State",
+  "choice2": "Enugu State",
+  "choice3": "Akwa Ibom",
+  "choice4": "Zamfara State",
+  "answer": 2
+},
+
+
+{"question": "Nigera is divided into how many geopolitical zones?",
+  "choice1": "8",
+  "choice2": "7",
+  "choice3": "6",
+  "choice4": "5",
+  "answer": 3
+}
+
+
 ]
