@@ -1,0 +1,1 @@
+This is a Quiz app in which the questions are loaded from a JSON file.
